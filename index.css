@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Open Sans';
+  color: #1C304A;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Montserrat';
+}
+
+body {
+  font-size: 10pt;
+}
+
+h1 {
+background-color: #1C304A;
+color: #B3EFFF;
+text-align: center;
+padding: 15px;
+font-size: 2em;
+text-decoration: none;
+font-family: 'Montserrat';
+}
+
+h1 a {
+  color: inherit;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+section {
+  padding: 15px;
+}
+
+section h2 {
+  background-color: #B3EFFF;
+  padding: 10px;
+  border-radius: 5px;
+  line-height: 1em;
+  margin: 0 0 10;
+}
+
+section p {
+  margin: 10px; 
+}
+
+form {
+  display: block;
+  margin: 10px;
+}
+
+form input {
+  border: 1px solid #1C304A;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+form input, form span {
+  vertical-align: middle;
+  font-size: 1.25em;
+  border-radius: 5px;
+}
+#term {
+  font-style: oblique;
+  font-size: 12pt;
+}
+
+#button {
+  font-weight: 500;
+  font-size: 1.25em;
+  color: #B3EFFF;
+  background-color: #1C304A;
+  border-color: #1C304A;
+  font-family: 'Montserrat';
+}
+
+.results {
+  text-align: center;
+}
+
+.results li {
+  width: 30%;
+  display: inline-block;
+  margin: 0.25%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.results li img {
+  display: inline-block;
+  max-width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.results a {
+  text-decoration: none;
+  display: block;
+}
+
+.results li:hover {
+  background-color: #B3EFFF;
+}
+
+.results li.master {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .results li {
+    width: 45%;
+  }
+  .results li img {
+    width: 100%;
+  }
+  form input, form span {
+  font-size: 1em;
+  }
+  #button {
+  font-weight: 200;
+  font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .results li {
+    display: block;
+    width: auto;
+  }
+  .results li img {
+    width: 100%;
+  }
+  form input, form span {
+  font-size: 1em;
+  }
+  #button {
+  font-weight: 200;
+  font-size: 1em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

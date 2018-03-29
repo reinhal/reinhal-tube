@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Reinhal Tube</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <h1><a href =''>Reinhal Tube</a></h1>
+    <section id ='search-form-section'>
+      <h2>Search for Videos</h2>
+      <p>Please enter any search terms to fetch videos from YouTube.</p>
+      <form id ='ytForm'>
+        <div>
+          <label>
+            <span>Search Term</span>
+            <input type='text' name = 'q' id = 'q'/>
+          </label>
+          <input type ='submit' value = 'Fetch Videos' id = 'button'/>
+        </div>
+      </form>
+    </section>
+    <section id='results-section' hidden>
+     <h2>Video Search Results</h2>
+     <p>You have got <span id ='num'>so many</span> results for your term: <span id = 'term'></span>.  Showing only the first <span id='resultsPerPage'>so many </span> results.</p>
+     <ul class = 'results'>
+       <li class = 'master'>
+         <figure>
+           <a href = ''><img src='//placehold.it/200x150?text=Video+1' alt =''></a>
+           <figcaption><a href=''>Video 1</a></figcaption>
+         </figure>
+       </li>
+     </ul> 
+    </section>
+     <script src="index.js"></script>
+  </body>
+</html>
+        
